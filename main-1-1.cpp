@@ -1,6 +1,6 @@
 #include<iostream>
 
-extern void print_matrix(int [10][10], int){}
+extern void print_matrix(int [10][10], int);
 
 int main (){
 
