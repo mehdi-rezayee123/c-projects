@@ -1,6 +1,6 @@
 #include<iostream>
 
-extern void print_matrix(int [][10], int);
+extern void print_matrix(int array[10][10]);
 
 int main (){
 
@@ -10,7 +10,7 @@ int main (){
     {34,4,67,232,56,8,4,23,4,6},{23,5,43,2,6,9,653,12,5,7}};
     
 
-    print_matrix (multiDimentionalarray,10);
+    print_matrix (multiDimentionalarray);
 
     return 0;
 
