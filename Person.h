@@ -2,11 +2,15 @@
 #define PERSON_H
 
 #include <string>
-using namespace std;
 
 struct Person {
-    string name;
+    std::string name;
     int age;
 };
 
-#endif
+struct PersonList {
+    Person* people;
+    int numPeople;
+};
+
+#endif 
